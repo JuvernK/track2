@@ -30,7 +30,7 @@ resource "aws_instance" "ubuntu" {
   }
 }
 
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "example-s3-2-j" {
   bucket = "my-tf-test-bucket"
 
   tags = {
